@@ -1,0 +1,166 @@
+body{
+    background-color: rgb(60, 60, 65);
+}
+
+/*----------------------------------------------------*/
+
+header {
+    background-color: rgb(50, 50, 55);
+    display: flex;
+    justify-content: space-between;
+}
+
+/*----------------------------------------------------*/
+
+.logoindex{
+    display: flex;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 10px;
+    margin-right: 0em;
+}
+
+.logoindex__logo img {
+    height: 5em;
+}
+/*
+ .logoindex__h1{
+    position: relative;
+    right: 20px;
+    font-family: 'Staatliches', cursive;
+    color: rgb(255, 255, 255)
+}
+*/
+
+/*----------------------------------------------------*/
+
+.header__nav{
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.header__nav a{
+    margin: 1em;
+    font-family: 'Major Mono Display', monospace;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.header__nav--a{
+    padding-left: 40px;
+    padding-right: 40px;
+    border-left: 1px solid rgb(255, 255, 255);
+    border-right: 1px solid rgb(255, 255, 255);
+}
+
+.header__nav a:hover{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: 1em;
+    font-family: 'Major Mono Display', monospace;
+    color: rgb(145, 145, 145);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/*----------------------------------------------------*/
+
+.menu{
+    display: flex;
+    align-self: flex-end;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.menu__icon img{
+    object-fit: contain;
+    object-position: right;
+}
+
+.menu__icon img:hover{
+    background-color: rgb(55, 55, 60);
+}
+
+/*----------------------------------------------------*/ 
+
+/*
+font-family: 'Staatliches', cursive;
+font-family: 'Hepta Slab', serif;
+font-family: 'VT323', monospace;
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Righteous', cursive;
+font-family: 'Major Mono Display', monospace;
+font-family: 'Libre Barcode 39 Text', cursive;
+*/
+
+/*----------------------------------------------------*/
+
+.were{
+    background-color: rgb(60, 60, 65);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.were__body--h2{
+    font-family: 'Major Mono Display', monospace;
+    color: rgb(218, 218, 218);
+    font-size: 42px;
+}
+
+.firma{
+    display: flex;
+    justify-content: space-around;
+}
+
+.firma__staff-nasgar{
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-size: 30px;
+    color: rgb(218, 218, 218);  
+}
+
+/*----------------------------------------------------*/
+
+.article{
+    background-color: rgb(70, 70, 75);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/*-------------------------------------------*/
+
+.article__logo{
+    position: relative;
+    margin: auto;
+    object-fit: contain;
+    object-position: center;
+}
+
+.article__logo img{
+    position: relative;
+    height: 90px;
+}
+
+/*--------------------------------------------*/
+
+.article__section h3{
+    color: rgb(255, 255, 255);
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 30px;
+    margin-top: 155px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.article__section p{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 15px;
+    color: rgb(200, 200, 200);
+    margin: 40px;
+}
+  
